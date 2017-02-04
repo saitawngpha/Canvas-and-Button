@@ -55,10 +55,13 @@ text-shadow: 0 0 5px #000;
 Yon can change to your own color.
 
 2) In HTML ***index.html***.  
-```<div id="box1">Button</div><div id="box2">Button</div>
+```
+<div id="box1">Button</div><div id="box2">Button</div>
 <div id="box3">Button</div>
 <div id="box4">Button</div>
+
 ```  
+
 In your html file, call style with id name. 
 
 3) Finish.  
