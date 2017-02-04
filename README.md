@@ -14,8 +14,7 @@ Safari, Chrome, Firefox, Opre and IE
 
 ##  How to use canvas
 1) look at javascirpt file and paste as your custom image code **js.js**.
-```// Load initial input image (past your own image code here!)
-    this.loadData( 'data:image/jpeg;base64,...')
+```// Load initial input image (past your own image code here!)this.loadData( 'data:image/jpeg;base64,...')
 ```  
 
 2) Convert Your iMage To 64 Bit Data   
@@ -28,37 +27,17 @@ you can convert your image from the above link. After that copy all code and pas
 
 ##  How to use Fancy Button 
 1) look at Css file at Css Folder **stylesheet.css**.
-```#box1{
-    background: linear-gradient(to bottom left, #fc3, #f91);
-    width: 360px;
-    height: 80px;
-    margin: 0 0 30px;
-    text-align: center;
-    line-height: 80px;
-    color: aliceblue;
-    font-weight: 700;
-    -webkit-border-radius: 40px;
-     -moz-border-radius: 40px;
-     -o-border-radius: 40px;
-     border-radius: 40px;    
+```#box1{background: linear-gradient(to bottom left, #fc3, #f91);width: 360px;height: 80px;margin: 0 0 30px;text-align: center;line-height: 80px;color: aliceblue;font-weight: 700;-webkit-border-radius: 40px; -moz-border-radius: 40px; -o-border-radius: 40px; border-radius: 40px;    
 }
-#box1:hover{
-    background: linear-gradient(to bottom left, #f91, #fc3);
-    -webkit-box-shadow: 2px 1px 3px #000;
-    -moz-box-shadow: 2px 1px 3px #000;
-    -o-box-shadow: 2px 1px 3px #000;
-    box-shadow: 2px 1px 3px #000;
-    text-shadow: 0 0 5px #000;
-    
+#box1:hover{background: linear-gradient(to bottom left, #f91, #fc3);-webkit-box-shadow: 2px 1px 3px #000;-moz-box-shadow: 2px 1px 3px #000;-o-box-shadow: 2px 1px 3px #000;box-shadow: 2px 1px 3px #000;text-shadow: 0 0 5px #000;   
 }
 ```  
 Yon can change to your own color.
 
 2) In HTML ***index.html***.  
-```<div id="box1">Button</div>
-        <div id="box2">Button</div>
-        <div id="box3">Button</div>
-        <div id="box4">Button</div>
+```<div id="box1">Button</div><div id="box2">Button</div>
+<div id="box3">Button</div>
+<div id="box4">Button</div>
 ```  
 In your html file, call style with id name. 
 
